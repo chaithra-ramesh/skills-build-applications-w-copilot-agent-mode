@@ -1,0 +1,123 @@
+
+
+body {
+  background: linear-gradient(135deg, #f8ffae 0%, #43cea2 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+
+.App {
+  text-align: center;
+  color: #2c3e50;
+  padding-bottom: 40px;
+}
+
+
+.octofit-logo {
+  height: 56px;
+  margin-right: 20px;
+  vertical-align: middle;
+  filter: drop-shadow(0 2px 8px rgba(67,206,162,0.3));
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%) !important;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 4px 16px rgba(24,90,157,0.10);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  text-shadow: 0 1px 4px rgba(24,90,157,0.10);
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffb347 !important;
+  text-shadow: 0 2px 8px #fff7;
+}
+
+
+.card {
+  background: linear-gradient(120deg, #f8fafc 60%, #e0c3fc 100%);
+  border: 1px solid #e3e6f0;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(67,206,162,0.10);
+  margin-bottom: 32px;
+}
+
+
+.card-title {
+  color: #43cea2;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-shadow: 0 2px 8px #fff7;
+}
+
+
+table.table {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(67,206,162,0.08);
+}
+table.table thead {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+table.table tbody tr:hover {
+  background: #e0c3fc44;
+  transition: background 0.2s;
+}
+
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(67,206,162,0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #185a9d;
+}
+
+
+a, .App-link {
+  color: #185a9d;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #43cea2;
+  text-decoration: underline wavy;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #185a9d;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 8px #fff7;
+}
+
+/* Favicon and logo animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
